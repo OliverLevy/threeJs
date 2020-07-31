@@ -39,17 +39,7 @@ const SpinningBoy = ({ position, args, color, speed, factor }) => {
 
 function App() {
   return (
-    <div className='main'>
-      <div className="content">
-        <h1>this is a header</h1>
-        <h3>here's an h3</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
-          ducimus, quaerat quae eaque fugit id illum natus, iusto a fuga
-          expedita voluptate cumque ipsam molestias commodi ex, omnis excepturi
-          officia?
-        </p>
-      </div>
+   
       <Canvas
         className="threedee"
         shadowMap
@@ -105,7 +95,6 @@ function App() {
 
         <OrbitControls />
       </Canvas>
-    </div>
   );
 }
 
